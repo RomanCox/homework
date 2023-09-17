@@ -69,7 +69,7 @@ const Stand = () => {
                         id={'hw4-super-button-secondary'}
                         xType={'secondary'}
                     >
-                        secondary
+                        secondary button
                     </SuperButton>
                 </div>
             </div>
@@ -82,7 +82,7 @@ const Stand = () => {
                         checked={stateForAllCheckboxes}
                         onChangeChecked={setChecked}
                     >
-                        some text
+                        Hometask
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}
