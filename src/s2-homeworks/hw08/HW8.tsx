@@ -62,21 +62,21 @@ const HW8 = () => {
                         <SuperButton
                             id={'hw8-button-up'}
                             onClick={sortUp}
-                            xType={currentSort === 'up' ? '' : 'secondary'}
+                            xType={currentSort === 'up' ? 'default' : 'secondary'}
                         >
                             Sort up
                         </SuperButton>
                         <SuperButton
                             id={'hw8-button-down'}
                             onClick={sortDown}
-                            xType={currentSort === 'down' ? '' : 'secondary'}
+                            xType={currentSort === 'down' ? 'default' : 'secondary'}
                         >
                             Sort down
                         </SuperButton>
                         <SuperButton
                             id={'hw8-button-18'}
                             onClick={check18}
-                            xType={currentSort === '18' ? '' : 'secondary'}
+                            xType={currentSort === '18' ? 'default' : 'secondary'}
                         >
                             Check 18+
                         </SuperButton>
@@ -85,7 +85,7 @@ const HW8 = () => {
                     <table id={'hw8-users'} className={s.users}>
                         <thead className={s.thead}>
                         <tr>
-                            <td className={s.nameCol}>Name</td>
+                            <td className={s.nameCol}><b>Name</b></td>
                             <td className={s.ageCol}>Age</td>
                         </tr>
                         </thead>

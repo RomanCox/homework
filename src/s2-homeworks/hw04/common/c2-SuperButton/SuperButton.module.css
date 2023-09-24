@@ -22,6 +22,7 @@
 
 .default {
     background: rgba(0, 102, 204, 1);
+    color: white;
 }
 
 .red {
