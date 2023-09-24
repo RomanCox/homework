@@ -3,14 +3,14 @@
 }
 
 .hw {
-    padding: 20px 40px;
+    padding: 20px 70px;
     border-top: 1px solid rgba(217, 217, 217, 1);
     border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
 .hwTitle {
-    padding: 10px 40px;
-    margin-top: 30px;
+    padding: 10px 70px;
+    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 22px;
