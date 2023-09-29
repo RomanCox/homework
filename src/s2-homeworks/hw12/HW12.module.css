@@ -19,5 +19,25 @@ html {
 }
 
 .select {
+    width: 171px;
+    height: 36px;
+    border-radius: 2px;
+    border: 1px solid #323232;
+    font-size: 16px;
+}
 
+.select:focus-visible {
+    outline: none;
+}
+
+.selectWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
