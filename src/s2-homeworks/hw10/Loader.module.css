@@ -1,6 +1,9 @@
 .loader {
     /*свг и/или анимация*/
-    display: inline-flex;
+    background-image: url('./loading.png');
+    background-size: contain;
+    width: 90px;
+    height: 90px;
     animation: 1s linear 0s normal none infinite running rotate;
 }
 

@@ -1,27 +1,101 @@
 .tech {
-    width: 50vw;
+    width: 100px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .developer {
-
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .techHeader {
-    width: 50vw;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #000;
 }
 
 .developerHeader {
-
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .row {
+    width: 30vw;
+    height: 48px;
+    padding-left: 18px;
     display: flex;
+    align-items: center;
+    gap: 40%;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.row:last-child {
+    border-bottom: none;
 }
 
 .rowHeader {
+    height: 36px;
+    width: 30vw;
+    margin-top: 36px;
+    padding-left: 18px;
     display: flex;
+    align-items: center;
+    gap: 40%;
+    background-color: #E5E5E5;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.loadingWrapper {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
 }
 
 .loading {
+    /*свг и/или анимация*/
+    background-image: url('./loading.png');
+    width: 90px;
+    height: 90px;
+    animation: 1s linear 0s normal none infinite running rotate;
+}
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

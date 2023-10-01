@@ -1,0 +1,6 @@
+.arrows {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+}
